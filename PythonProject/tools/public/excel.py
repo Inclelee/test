@@ -10,3 +10,4 @@ def write_data(sheet, row, column, value):
 
 def get_data(sheet, row, column):
     return sheet.cell(row, column).value
+
